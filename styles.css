@@ -1,0 +1,22 @@
+body * {
+    box-sizing: border-box;
+}
+
+/* Replace with your HW2 CSS */
+
+#stories {
+    display: flex;
+    column-gap: 10px;
+}
+
+#stories section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#stories img {
+    border-radius: 50%;
+    width: 50px;
+}
