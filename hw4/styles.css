@@ -20,7 +20,7 @@
     border-radius: 50%;
     width: 50px;
 } */
-body * {
+/* body * {
     box-sizing: border-box;
 }
 
@@ -35,25 +35,25 @@ body {
 }
 
 /* Begin Debugging Code */
-header, main, main section, nav, .logo {
+/* header, main, main section, nav, .logo { */
     /* border: solid 2px #CCC; */
     
-}
+/* }
 
 .logo {
     font-size: 2.5em;
     font-weight: normal;
     
-}
+} */
 
-aside, body > header, main, .news-feed {
+/* aside, body > header, main, .news-feed {
     /* border: solid 4px rgb(255, 255, 255); */
-    padding: 10px;
+    /* padding: 10px;
     margin: 10px;
     font-family: monospace;
-}
+} */
 /* End Debugging Code */
-#topnav{
+/* #topnav{
     position: fixed;
     background-color: white;
     top: 0;
@@ -95,7 +95,7 @@ aside{
 
 /* main user 1 */
 
-.signout{
+/* .signout{
     color: #5851DB;
     
 }
@@ -123,8 +123,8 @@ aside{
     margin-top: -50px;
   
       
-}
-.suggestions{
+}  */
+/* .suggestions{
     color:grey;
     clear:both;
     margin-top: 10px;
@@ -142,8 +142,8 @@ aside{
     height: 50px;
     border-radius: 25px;
     background-image:url(http://images5.fanpop.com/image/photos/25900000/Bubbles-and-a-cat-powerpuff-girls-25913778-500-387.png);
-    background-size: cover;
-
+    background-size: cover; */
+/* 
 }
 .follow{
     color: #5851DB	;
@@ -151,16 +151,16 @@ aside{
 }
 .suggestedagain{
     color:grey
-}
+} */
 /*  user 2 */
 
-.suggestedacc2{
+/* .suggestedacc2{
     display: inline-block;
     width:150px;
     text-align: center;
     margin-right: 20px;
-}
-.suggestpic2{
+} */
+/* .suggestpic2{
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -178,10 +178,10 @@ aside{
 
 .suggestedagain{
     color:grey
-}
+} */
 /*  user 3 */
 
-.suggestedacc3{
+/* .suggestedacc3{
     
     display: inline-block;
     width:150px;
@@ -205,7 +205,7 @@ aside{
 }
 /*  user 4 */
 
-.suggestedacc4{
+/* .suggestedacc4{
     
     display: inline-block;
     width:150px;
@@ -226,9 +226,9 @@ aside{
 }
 .suggestedagain4{
     color:grey
-}
+}  */
 /*  user 5 */
-.suggestedacc5{
+/* .suggestedacc5{
     display: inline-block;
     width:150px;
     text-align: center;
@@ -252,26 +252,26 @@ aside{
     float: left;
     color:grey
     
-}
+} */
 
 /*  stories*/
-.stories-container{
+/* .stories-container{
     display: flex;
     flex-direction: row;
     align-items: center;
   
     float: left;
 
-} 
-.user1,.user2,.user3,.user4,.user5{
+}  */
+/* .user1,.user2,.user3,.user4,.user5{
     display: block;
     display:flex; 
     float:left;
     text-align: center;
    
    
-}
-.storypic1,.storypic2,.storypic3,.storypic4,.storypic5{
+} */
+/* .storypic1,.storypic2,.storypic3,.storypic4,.storypic5{
     width:50px;
     height:50px;
     border-radius: 25px;
@@ -284,11 +284,11 @@ aside{
     box-sizing: border-box;
   
 
-} 
+}  */
 
 
 
-.storypic1{
+/* .storypic1{
     background-image: url(data:image/jpeg;base64,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);
 }
 .storypic2{
@@ -308,13 +308,13 @@ background-image: url(https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spid
     margin-left: 10px;
 }
 /*posts*/
-.post1,.post2,.post3,.post4{
+/* .post1,.post2,.post3,.post4{
     width: auto;
     height: 450px;
     background-size: cover;
    
-}
-.post1{
+}  */
+/* .post1{
     background-image: url(https://www.udiscovermusic.com/wp-content/uploads/2020/09/The-Smashing-Pumpkins-GettyImages-86141920.jpg);
 }
 .post2{
@@ -328,6 +328,413 @@ background-image: url(https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spid
 }
 .user1post,.user2post,.user3post,.user4post{
     font-size: 2em;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/*************************/
+/* Global Element Styles */
+/*************************/
+* {
+    box-sizing: border-box;
 }
 
-  
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+aside, main, nav {
+    padding: 10px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Comfortaa', cursive;
+}
+
+a, 
+a:visited, 
+a:hover, 
+a:link,
+a:active {
+    text-decoration: none;
+    color: rgb(44, 105, 155);
+}
+a:hover {
+    color: #777;
+}
+
+.button {
+    background-color: transparent;
+    border: 0;
+    padding: 8px 0px;
+    text-align: center;
+    color: rgb(44, 105, 155);
+}
+
+button.link_following {
+    color: rgb(44, 105, 155);
+    background-color: transparent;
+    border-width: 0px;
+}
+
+button.link:hover {
+    color: #777;
+}
+
+button.link_following {
+    padding: 5px 10px !important;
+}
+
+button.link_following.active {
+    background-color: white;
+    padding: 5px 10px !important;
+    border: solid 1px #CCC;
+    border-radius: 4px;
+}
+
+
+/********************/
+/* Top-Level Layout */
+/********************/
+nav {
+    position: fixed;
+    height: 70px;
+    width: 100vw;
+    background-color: white;
+    border-bottom: solid #dbdbdb 1px;
+    left: 0px;
+    top: 0px;
+    padding: 0px 3vw;
+}
+
+aside {
+    position: fixed;
+    left: calc(60vw);
+    top: 70px;
+    background-color: #f2f2f2;
+    height: calc(100vh - 100px);
+    padding-left: 40px;
+    max-width: 500px;
+    min-width: 350px
+}
+
+main {
+    margin-top: 70px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+/**************/
+/* Navigation */
+/**************/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+nav li {
+    margin-left: 10px;
+}
+
+
+/***********/
+/* Stories */
+/***********/
+.stories {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 50vw;
+    min-width: 540px;
+    border: solid 1px #dbdbdb;
+    margin-bottom: 30px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.stories > div {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.stories > div .pic {
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 27px;
+    overflow: hidden;
+    padding: 3px;
+    background: linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+}
+.stories p {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-size: 0.80em;
+    color: #999;
+}
+
+
+/***************/
+/* Card Styles */
+/***************/
+.card {
+    border: solid 1px #dbdbdb;
+    margin-bottom: 30px;
+    background-color: #fff;
+    width: 50vw;
+    min-width: 540px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.icon-button, .close {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.icon-button .fas.fa-heart {
+    color: red;
+}
+
+.card .header, .card .buttons, .card .add-comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .header, .card .info {
+    padding: 2px 10px;
+    color: #444;
+}
+
+.card .buttons {
+    font-size: 1.3em;
+    padding: 5px;
+}
+.card .buttons i {
+    margin-right: 4px;
+}
+.card .caption, .card .comments, .likes {
+    padding: 0px 5px;
+}
+.card .caption p, .card .comments p {
+    margin: 8px 0px 3px 0px;
+    font-size: 0.9em;
+}
+.card .button {
+    padding: 5px 8px;
+    font-size: 1.0em;
+}
+.card .comments .timestamp {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding: 10px 0;
+}
+.card .add-comment {
+    border-top: solid 1px #dbdbdb;
+    padding: 10px 15px;
+}
+
+.card .add-comment .input-holder {
+    width: 90%;
+}
+
+.card .add-comment input, .card .add-comment input:focus, .card .add-comment input:focus-visible {
+    border-width: 0px;
+    outline: none;
+    font-size: 0.95em;
+    width: 85%;
+    padding: 10px 0px;
+}
+
+.card .add-comment i {
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+
+.card .add-comment .button {
+    padding: 8px 20px;
+    font-size: 1.0em;
+}
+
+
+/***************/
+/* Suggestions */
+/***************/
+.suggestion-text {
+    color: #999;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.suggestions section {
+    display: grid;
+    grid-template-columns: 43px auto 80px;
+    align-items: center;
+}
+
+.suggestions section > div {
+    padding: 8px;
+}
+
+.suggestions .username {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.suggestions section p, .suggestions section a {
+    margin: 0px;
+}
+.suggestions section p {
+    color: #333;
+    font-weight: 600;
+}
+.suggestions section a {
+    font-size: 0.8em;
+}
+.suggestions section p:nth-child(2) {
+    color: #999;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.suggestions section .pic {
+    width: 30px;
+    height: 30px;
+    border: solid 1px #dbdbdb;
+    border-radius: 15px;
+}
+
+
+/***************/
+/*    Modal    */
+/***************/
+.modal-bg {
+    background: rgba(50, 50, 50, 0.8);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    width: 70vw;
+    height: 85vh;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.close {
+    align-self: flex-end;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.modal-body {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 40vw auto;
+    column-gap: 20px;
+    align-items: center;
+    height: 85vh;
+}
+
+.modal-body img {
+    width: 100%;
+}
+
+.top {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.top img{
+    width: 40px;
+    height: 40px;
+    border: solid 1px #dbdbdb;
+    border-radius: 20px;
+}
+
+.the-comments {
+    height: 50vh;
+    overflow-y: auto;
+}
+
+.the-comments p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+/****************/
+/* Aside Header */
+/****************/
+aside header > div {
+    display: flex;
+    align-items: center;
+}
+
+aside header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 33px;
+    border-width: 0px;
+    margin-right: 20px;
+}
+
+@media (max-width: 900px) {
+    aside {
+        display: none;
+    }
+    main {
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+    }
+    .card, .stories {
+        width: 90vw;
+        min-width: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .card, .stories {
+        width: 95vw;
+    }
+}

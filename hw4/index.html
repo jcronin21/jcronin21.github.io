@@ -1,21 +1,54 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/main.js" defer></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="js/main.js" type="module" defer></script>
+
+
     <title>Photo App</title>
 </head>
-<body>
-    <section id="stories">
-        Add all of the stories here....
-    </section>
 
-    <div id="posts">
-        Add all of the posts go here....
-    </div>
-    
+<body>
+    <nav>
+        <h1>Photo App</h1>
+        <ul>
+            
+        </ul>
+    </nav>
+
+    <aside>
+        <header class="user">
+           >
+        </header>
+        <div class="suggestions">
+            <p class="suggestion-text">Suggestions for you</p>
+           
+        </div>
+    </aside>
+
+    <main class="content">
+        <header class="stories">
+           
+        </header>
+
+        <section class="card">
+            
+        </section>
+        <div class="modal-bg hidden" aria-hidden="true" role="dialog">
+            <section class="modal">
+                <button class="close" onclick="closeModal()" aria-label="Close the modal window"><i class="fas fa-times"></i></button>
+                <div class="modal-body">
+                    
+                    
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
