@@ -5,6 +5,7 @@ const rootURL = 'https://photo-app-secured.herokuapp.com';
 const username = "webdev";
 const password = "password";
 
+
 async function getAccessToken(rootURL, username, password) {
     const postData = {
         "username": username,
@@ -286,6 +287,7 @@ const modalComments = (data) => {
     `
     )
 }
+
 
 document.addEventListener('focus', function (event) {
 
